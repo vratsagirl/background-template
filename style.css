@@ -1,0 +1,51 @@
+body
+{
+background: url("tree_bark.png");
+color:white;
+margin-top:30px;
+font-family:Helvetica; 
+}
+/*margin-top:there is a bit of space and no divs go here*/  
+h1
+{
+font-style:italic;
+font-weight:bold;
+text-align:center;   /*for text to go to the middle!!!!*/
+}
+#wrapper
+{
+width:960px;
+height:600px;
+background:red;
+margin:0 auto;
+}
+#header
+{
+width:100%;
+height:20%;
+background:#C7AFBD;
+text-align:center; 
+}
+#sidebar
+{
+width:15%;
+height:80%;
+background:#F9F6F4;
+float:left; 
+}
+/*content goes here*/
+#content
+{
+width:85%;
+height:80%;
+background:#CCCCCC;
+float:left; 
+}
+#trans
+{
+width:960px;
+height:100px;
+background:#FFCCCB;
+opacity:0.2;
+margin:0 auto;
+}
